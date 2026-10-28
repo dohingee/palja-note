@@ -1,16 +1,18 @@
 {
   "name": "palja-note",
   "version": "1.0.0",
-  "main": "index.ts",
+  "main": "expo-router/entry",
   "dependencies": {
     "@react-native-async-storage/async-storage": "2.2.0",
     "@react-native-community/datetimepicker": "9.2.1",
     "expo": "~58.0.21",
     "expo-build-properties": "~58.0.11",
     "expo-constants": "~58.0.14",
+    "expo-dev-client": "~58.0.17",
     "expo-linking": "~58.0.15",
     "expo-router": "~58.0.28",
     "expo-status-bar": "~58.0.4",
+    "expo-tracking-transparency": "~58.0.2",
     "lunar-javascript": "^1.7.7",
     "react": "19.3.0",
     "react-dom": "^19.3.0",
@@ -30,7 +32,8 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "test": "jest"
   },
   "private": true
 }

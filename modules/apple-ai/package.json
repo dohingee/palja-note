@@ -1,0 +1,8 @@
+{
+  "name": "apple-ai",
+  "version": "1.0.0",
+  "description": "팔자노트 전용: 애플 Foundation Models(기기 안 AI)로 풀이 문장을 다시 쓰는 로컬 Expo 모듈",
+  "main": "index.ts",
+  "private": true,
+  "license": "MIT"
+}
